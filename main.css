@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topnav a{
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+}
+
+.topnav{
+    background-color: black;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.topnav a:hover{
+    background-color: rgba(0, 0, 255, 0.719);
+}
+
+@media(max-width: 768px){
+    .topnav {
+        background-color: gold;
+    }
+    .topnav a{
+       padding: 8px;
+       font-size: 18px; 
+    }
+ }
+
+
+@media(max-width: 425px){
+   .topnav {
+       background-color: gold;
+   }
+   .topnav a{
+      padding: 8px;
+      font-size: 15px; 
+   }
+}
+
+@media(max-width: 375px){
+    .topnav {
+        background-color: gold;
+    }
+    .topnav a{
+       padding: 6px;
+       font-size: 15px; 
+    }
+ }
+
+ @media(max-width: 320px){
+    .topnav {
+        background-color: gold;
+    }
+    .topnav a{
+       padding: 3px;
+       font-size: 15px; 
+    }
+ }
